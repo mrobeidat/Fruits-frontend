@@ -117,7 +117,7 @@ class FavFruit extends React.Component {
                   {item.price}
                 </Card.Text>
                 <Button onClick={() => this.showUpdatedForm(item)} variant="primary">Update</Button>
-                <Button onClick={() => this.delete(this._id)} variant="danger">Delete</Button>
+                <Button onClick={() => this.delete(item._id)} variant="danger">Delete</Button>
 
               </Card.Body>
             </Card>
